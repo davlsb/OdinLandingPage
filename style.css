@@ -137,6 +137,23 @@ button {
     font-style: normal;
     font-size: 24px;
     margin: 0;
+}
+
+.right-align {
     margin-left: auto;
 }
 
+.fourth {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 16px;
+    padding: 32px;
+    margin: 64px 128px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth p {
+    display: flex;
+    flex-direction: column;
+}
