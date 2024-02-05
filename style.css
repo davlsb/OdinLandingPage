@@ -10,7 +10,7 @@ header {
     font-size: 18px;
     color: #F9FAF8;
     background-color: #1F2937;
-    padding: 0px 128px;
+    padding: 0px 256px;
     margin: 0;
 }
 
@@ -23,7 +23,7 @@ ul {
     display: flex;
     margin-left: auto;
     list-style: none;
-    gap: 8px;
+    gap: 16px;
 }
 
 a {
@@ -40,7 +40,7 @@ a {
     justify-content: space-evenly;
     align-items: center;
     gap: 32px;
-    padding: 24px 128px;
+    padding: 128px 256px;
 }
 
 h1{
@@ -53,16 +53,43 @@ h1{
 .text {
     flex-grow: 1;
     font-size: 18px;
-    flex-basis: 40%;
+    flex-basis: 50%;
 }
 
 .image-container {
     flex-grow: 4;
-    flex-basis: 60%;
+    flex-basis: 50%;
     display: flex;
     width: 1000px;
     justify-content: center;
     align-self: stretch;
     background-color: rgb(216, 216, 216);
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 32px;
+    padding: 24px 128px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.mini {
+    width: 200px;
+    padding: 32px;
+    text-align: center;
+}
+
+.mini img {
+    width: 200px;
+    border-color: rgb(0, 128, 255);
+    border-style: solid;
+    border-radius: 16px;
 }
 
