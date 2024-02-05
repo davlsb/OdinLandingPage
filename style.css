@@ -148,7 +148,7 @@ button {
     background-color: #3882F6;
     border-radius: 8px;
     padding: 32px;
-    margin: 64px 256px;
+    margin: 128px 256px;
     justify-content: space-evenly;
     align-items: center;
     color:#F9FAF8;
@@ -168,4 +168,13 @@ button {
 .outlineBtn {
     border: 2px solid #E5E7EB; 
     border-radius: 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 32px;
+    color: #E5E7EB;
 }
